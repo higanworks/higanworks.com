@@ -1,13 +1,72 @@
-/*Global*/
+/* Override bootstrap*/
 body {
   font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  background-color:lightgrey;
+  font-size: 100%;
 }
 
-.siteheader h1 {
-  font-family: 'Squada One', cursive;
+#siteheader h1 {
+  font-family: 'Squada One', helvetica, arial;
+  margin: 0px;
 }
 
+#siteheader h2 {
+  font-size: 100%;
+  margin-bottom: 18px;
+}
 
-h1 {
+div.container {
+  background-color: oldlace;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px 6px 6px 6px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1.5em;
+}
+
+.mainpage
+{
+    position: relative;
+    width: 500px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.mainpage h1 {
   font-family: 'Arvo', serif;
+}
+
+
+.mainpage:before, .mainpage:after
+{
+    position: absolute;
+    width: 40%;
+    height: 10px;
+    content: ' ';
+    left: 12px;
+    bottom: 12px;
+    background: transparent;
+    -webkit-transform: skew(-5deg) rotate(-5deg);
+    -moz-transform: skew(-5deg) rotate(-5deg);
+    -ms-transform: skew(-5deg) rotate(-5deg);
+    -o-transform: skew(-5deg) rotate(-5deg);
+    transform: skew(-5deg) rotate(-5deg);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+.box:after
+{
+    left: auto;
+    right: 12px;
+    -webkit-transform: skew(5deg) rotate(5deg);
+    -moz-transform: skew(5deg) rotate(5deg);
+    -ms-transform: skew(5deg) rotate(5deg);
+    -o-transform: skew(5deg) rotate(5deg);
+    transform: skew(5deg) rotate(5deg);
 }

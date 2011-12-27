@@ -10,19 +10,26 @@
     <link href='http://fonts.googleapis.com/css?family=Arvo:400italic' rel='stylesheet' type='text/css'>
 
     <!-- include styleseets -->
+    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="./css/common.css" type="text/css">
   </head>
-  <body class="basestyle">
-    <div id="container">
-    <header class="siteheader">
+  <body>
+  <div class="container">
+  <div class="row">
+    <header id="siteheader" class="span16">
+      <hgroup>
       <h1>HiganWorks LLC.</h1>
+      <h2>ヒガンワークス合同会社</h2>
       <p>building site...
         <progress value="6" max="100"></progress>
       </p>
+      </hgroup>
     </header>
-    <div id="sidenav">
+  </div><!-- div:row -->
+
+  <div class="row">
+    <div id="sidenav" class="span2">
     <nav>
-      <p>nav to left side bar</p>
       <ul>
         <li>about</li>
         <li>contact</li>
@@ -32,26 +39,26 @@
     </nav>    
     </div><!-- div:sidenav -->
 
-    <div id="mainview">
-      <p>to right</p>
-      <section id="about" class="mainpage">
+    <div id="mainview" class="span14">
+      <article id="about" class="mainpage">
         <h1>about</h1>
         <p>about...</p>
-      </section>
+      </article>
 
-      <section id="contact" class="mainpage">
+      <article id="contact" class="mainpage">
         <h1>contact</h1>
-      </section>
+      </article>
 
-      <section id="works" class="mainpage">
+      <article id="works" class="mainpage">
         <h1>works</h1>
-      </section>
+      </article>
 
-      <section id="information" class="mainpage">
+      <article id="information" class="mainpage">
         <h1>information</h1>
-      </section>
+      </article>
 
     </div><!-- div:mainview --> 
-    </div><!-- div:container-->
+  </div><!-- div:row-->
+  </div><!-- div:container-->
   </body> 
 </html>
