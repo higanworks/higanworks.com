@@ -7,6 +7,7 @@ body {
 
 #siteheader h1 {
   font-family: 'Squada One', helvetica, arial;
+  font-size: 300%;
   margin: 0px;
 }
 
@@ -24,6 +25,16 @@ div.container {
   padding: 1.5em;
 }
 
+.sidenavi li {
+  background: #7f9db9;
+  list-style: none;
+  height: 2em;
+  -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  z-index: 100;
+}
+
 .mainpage
 {
     position: relative;
@@ -38,6 +49,7 @@ div.container {
 
 .mainpage h1 {
   font-family: 'Arvo', serif;
+  font-size: 140%;
 }
 
 
