@@ -10,8 +10,13 @@
     <link href='http://fonts.googleapis.com/css?family=Arvo:400italic' rel='stylesheet' type='text/css'>
 
     <!-- include styleseets -->
-    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css" type="text/css"> -->
+    <link rel="stylesheet" href="./css/bootstrap_sub.css" type="text/css">
     <link rel="stylesheet" href="./css/common.css" type="text/css">
+    
+    <!-- Other Resources 
+      https://github.com/intridea/authbuttons
+    -->
   </head>
   <body>
   <div class="container">
@@ -26,9 +31,6 @@
 
   <div class="row">
     <div id="sidenav" class="span4">
-      <p>building site...
-        <progress value="20" max="100"></progress>
-      </p>
     <nav>
       <ul class="sidenavi">
         <li><a href="#about">about</a></li>
@@ -37,24 +39,75 @@
         <li><a href="#information">information</a></li>
       </ul>
     </nav>    
+      <p>building site...
+        <progress value="30" max="100"></progress>
+      </p>
     </div><!-- div:sidenav -->
 
     <div id="mainview" class="span12">
       <article id="about" class="mainpage">
-        <h1>about</h1>
-        <p>アバウトですよ</p>
+        <hgroup>
+          <h2>about</h2>
+          <h3>HiganWorksがしていること。</h3>
+        </hgroup>
+        <p>
+          <ul>
+            <li>インターネットサービスの開発と開発支援</li>
+            <li>インフラ設計および構築</li>
+            <li>開発環境の構築と運用管理</li>
+          </ul>
+        </p>
       </article>
 
       <article id="contact" class="mainpage">
-        <h1>contact</h1>
+        <h2>contact</h2>
+        <section class="profile">
+          <div class="span8">
+            <dl>
+              <dt>001</dt>
+              <dd>Yukihiko Sawanobori</dd>
+              <dt>Avatars</dt>
+              <dd>
+                <ul>
+                  <li>img01</li>
+                  <li>img02</li>
+                </ul>
+              </dd>
+              <dt>Activity</dt>
+              <dd>
+               <ul>
+                  <li><a href="http://twitter.com/#!/sawanoboly" target="_blank"</a>Twitter</a></li>
+                  <li><a href="http://www.facebook.com/yukihiko.sawanobori" target="_blank"</a>Facebook</a></li>
+                  <li><a href="http://hwmemo01.tumblr.com/" target="_blank"</a>Tumblr(TechNote)</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </div> <!-- span8 -->
+        </section>
       </article>
 
       <article id="works" class="mainpage">
-        <h1>works</h1>
+        <h2>works</h2>
       </article>
 
       <article id="information" class="mainpage">
-        <h1>information</h1>
+        <h2>information</h2>
+        <p>
+          <table>
+            <tr>
+             <td>設立</td>
+             <td>2011年3月</td>
+            </tr>
+            <tr>
+             <td>業種</td>
+             <td>(3911) 受託開発ソフトウェア業</td>
+            </tr>
+            <tr>
+             <td>所在</td>
+             <td>大阪府大阪市道修町2−2−5 イヌイ第2ビル 2F</td>
+            </tr>
+          </table>
+        </p>
       </article>
 
     </div><!-- div:mainview --> 
